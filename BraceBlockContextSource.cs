@@ -100,8 +100,14 @@ namespace BraceProvider
                     else
                         return false;
                 }
+                i++;
             }
             return false;
+        }
+
+        public void Dispose()
+        {
+            throw new NotImplementedException();
         }
     }
 
